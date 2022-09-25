@@ -3,14 +3,14 @@
 ## Overview
 This KiCad plugin swaps in place two selected components on the PCB.
 
-The plugin was tested with Kicad 5.1.10 on Ubuntu 20.04.
+The plugin was tested with KiCad 5.1.10 on Ubuntu 20.04.
 
 ## Installation
 1. Clone this repository
 
 2. Copy the `SwapComponents` folder into the KiCad plugin directory e.g.:
 ``` bash
-cp -r SwapComponents ~\.kicad_plugins\
+cp -r SwapComponents ~/.kicad_plugins/
 ```
 3. Run KiCad Pcbnew
 
