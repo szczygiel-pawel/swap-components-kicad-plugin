@@ -15,7 +15,7 @@ class SwapComponents(ActionPlugin):
         board = GetBoard()
         selected_modules = []
 
-        for module in board.GetModules():
+        for module in board.GetFootprints():
             if module.IsSelected():
                 selected_modules.append(module)
 
@@ -33,4 +33,3 @@ class SwapComponents(ActionPlugin):
     def popup(self, message, caption="SwapComponents plugin"):
         dlg = wx.MessageDialog(None, message, caption, wx.OK | wx.ICON_INFORMATION | wx.CENTRE)
         dlg.ShowModal()
-        
